@@ -1,0 +1,86 @@
+.border {
+    border: solid black 1px;
+}
+body {
+    background: url(./assets/images/white-waves.png);
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px 0 150px; 
+    background: white; 
+    border-bottom: 1px solid #cccccc; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 960;
+    display: flex;
+    
+}
+.borderRight {
+    border-right: 1px solid lightgray;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 5px;
+}
+.borderRight2 {
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 5px;
+}
+.navColor {
+    background: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+article{
+    background: #ffffff;
+    margin: 100px 150px 100px 150px;
+    padding: 0 20px 0 20px;
+    border: 1px solid #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 5px black;
+    width: 960px;
+}
+.titleColor {
+    color: #4aaaa5;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #777777;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navPad{
+    padding: 20px; 
+}
+.footer {
+    text-align: center;
+    background: gray;
+    height: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 10px;
+}
+.footColor {
+    height: 5px;
+    background: #4aaaa5;
+}
+img {
+    height: 100px;  
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+a {
+    text-decoration: none;
+    color: #777777;
+}
+h2 {
+    margin: 0;
+}
+p {
+    padding: 0 0 20px 0;
+}
